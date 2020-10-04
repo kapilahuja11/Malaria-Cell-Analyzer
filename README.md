@@ -41,19 +41,19 @@ We will do basic EDA, build a Keras cnn model, do 5 fold cross validation, train
 
 ## :bulb: Create the Model Architecture
 
-Convolution neural networks are special type of neural networks used in images recognition, images classifications and Objects detections.A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of convolutional layers, RELU layer i.e. activation function, pooling layers, fully connected layers and normalization layers.
+  Convolution neural networks are special type of neural networks used in images recognition, images classifications and Objects detections.A convolutional neural network           consists of an input and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of convolutional layers, RELU layer i.e. activation     function, pooling layers, fully connected layers and normalization layers.
 
-Convolutional layer is core building block of CNN, it helps with feature detection.
+  Convolutional layer is core building block of CNN, it helps with feature detection.
 
-Kernel K is a set of learnable filters and is small spatially compared to the image but extends through the full depth of the input image.
+  Kernel K is a set of learnable filters and is small spatially compared to the image but extends through the full depth of the input image.
 
-An easy way to understand this is if you were a detective and you are came across a large image or a picture in dark, how will you identify the image?
+  An easy way to understand this is if you were a detective and you are came across a large image or a picture in dark, how will you identify the image?
 
-You will use you flashlight and scan across the entire image. This is exactly what we do in convolutional layer.
+  You will use you flashlight and scan across the entire image. This is exactly what we do in convolutional layer.
 
-Kernel K, which is a feature detector is equivalent of the flashlight on image I, and we are trying to detect feature and create multiple feature maps to help us identify or classify the image.
+  Kernel K, which is a feature detector is equivalent of the flashlight on image I, and we are trying to detect feature and create multiple feature maps to help us identify or     classify the image.
 
-we have multiple feature detector to help with things like edge detection, identifying different shapes, bends or different colors etc.
+  we have multiple feature detector to help with things like edge detection, identifying different shapes, bends or different colors etc.
 
 <img src= "https://github.com/kapilahuja11/Malaria_Detection/blob/master/Assets/CNN.jpeg" height=500 width=1000>
 
